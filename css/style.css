@@ -1,0 +1,69 @@
+
+.nav-image{
+    width: 7%;
+}
+
+.hero-info{
+    margin-top: 80px;
+}
+
+.hero-image{
+    text-align: center;
+}
+
+.book img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#book-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+
+.book{
+    text-align: center;
+    background-color: #e8c979;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#features img{
+    margin: 0 auto;
+    height: 100px;
+    object-fit: cover;
+}
+
+.icon{
+    margin-right: 30px;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: cadetblue;
+}
+
+@media screen and (max-width: 680px) {
+   .hero-info{
+       margin-top: 10px;
+   }
+
+   .hero-image img{
+       
+    text-align: center;
+}
+
+   #book-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+  }
